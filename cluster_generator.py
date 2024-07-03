@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import sys
 from sklearn.cluster import KMeans
 
-GROUPSIZE=2
+GROUPSIZE=5
 INPUTFILE=sys.argv[1]
 
 df = pd.read_excel(INPUTFILE)
